@@ -3,4 +3,4 @@
 - A vanilla JavaScript project (because who doesn't like vanilla??)
 - This is part of the JavaScript Web Projects: 20 Projects to Build Your Portfolio by [Zero To Mastery Academy](https://zerotomastery.io/)
 
-![mandi coding | 100x100, 20%](/img/undraw_nature_light.svg)(width=50%)
+<img src="https://www.hartvolaction.org.uk/wp-content/uploads/2017/05/computer-clipart-for-kids-RiG6k67oT-e1493755091354.gif" width="256" height="256" title="happy me">
