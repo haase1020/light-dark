@@ -3,4 +3,4 @@
 - A vanilla JavaScript project (because who doesn't like vanilla??)
 - This is part of the JavaScript Web Projects: 20 Projects to Build Your Portfolio by [Zero To Mastery Academy](https://zerotomastery.io/)
 
-![mandi coding | 250x250, 50%](/img/undraw_nature_light.svg){ width: 150px; height:150px;}
+![mandi coding | 250x250,50%](/img/undraw_nature_light.svg)
