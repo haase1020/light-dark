@@ -70,13 +70,13 @@ a {
   color: var(--primary-color);
   text-decoration: none;
   border-bottom: 3px solid transparent;
-  font-weight: bold;
 }
 
 a:hover,
 a:focus {
   color: var(--on-background);
-  border-bottom: 3px solid;
+  /* border-bottom: 3px solid; */
+  text-decoration: none;
 }
 
 /* Home Section */
@@ -110,24 +110,22 @@ img {
   margin-bottom: 50px;
 }
 
-button {
-  min-width: 100px;
+.button {
+  padding: 0.3rem 1.5rem;
+  width: 400px;
   height: 40px;
   cursor: pointer;
   border-radius: 10px;
   margin-right: 10px;
   border: 2px solid var(--primary-color);
-  font-size: 15px;
+  font-size: 1.5rem;
   outline: none;
+  text-decoration: none;
 }
 
-button:disabled {
-  opacity: 0.4;
-  cursor: default;
-}
-
-button:hover:not(.outline) {
+.button:hover:not(.outline) {
   filter: brightness(110%);
+  text-decoration: none;
 }
 
 .primary {
@@ -168,6 +166,7 @@ button:hover:not(.outline) {
 p {
   margin: 0;
   line-height: 25px;
+  font-size: 1.5rem;
 }
 
 /* Contact Section */
@@ -182,6 +181,16 @@ p {
   color: var(--on-background);
 }
 
+.fas {
+  font-size: 100px;
+  margin-right: 50px;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.fas:hover {
+  color: var(--on-background);
+}
 /* Dark Mode Toggle */
 .theme-switch-wrapper {
   display: flex;
@@ -253,11 +262,10 @@ input:checked + .slider::before {
   border-radius: 50%;
 }
 
-.fas {
-  font-size: 30px;
-  margin-right: 5px;
-}
-
 #leaf {
   font-size: 50px;
+}
+
+#sun {
+  font-size: 30px;
 }
